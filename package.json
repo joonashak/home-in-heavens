@@ -1,0 +1,18 @@
+{
+  "name": "home-in-heavens",
+  "version": "1.0.0",
+  "description": "EVE Online related website homeinheavens.com",
+  "scripts": {
+    "start": "cd web && npm run develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joonashak/home-in-heavens.git"
+  },
+  "author": "Joonas Häkkinen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joonashak/home-in-heavens/issues"
+  },
+  "homepage": "https://github.com/joonashak/home-in-heavens#readme"
+}
