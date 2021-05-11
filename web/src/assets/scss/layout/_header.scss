@@ -68,12 +68,22 @@
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
+    background-color: #ffffff24;
 
     .icon {
       &:before {
         font-size: 2rem;
       }
     }
+  }
+
+  #hc-logo {
+    content: url('../../images/hc-logo.png');
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    left: -2px;
+    top: -3px;
   }
 
   .content {
