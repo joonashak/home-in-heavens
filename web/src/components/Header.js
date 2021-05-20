@@ -33,6 +33,24 @@ const Header = props => (
         <p>
           We try to answer your needs so dont hesitate to ask for an offer. Each contract is negotiated separately, for a predetermined period and in utmost confidence.
         </p>
+        <div className="split-text">
+          <div className="left">
+            <h2>
+              Contact us in Discord
+            </h2>
+            <p>
+              <a href="https://discord.gg/rr9euqXBnk" target="_blank">discord.gg/rr9euqXBnk</a>
+            </p>
+          </div>
+          <div className="right">
+            <h2>
+              Contact us in Game
+            </h2>
+            <p>
+              Hole Control - Avanto - Eluwien
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </header>
