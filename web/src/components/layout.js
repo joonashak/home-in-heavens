@@ -41,7 +41,7 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Wormhole hosting service by Hole Control.' },
+              { name: 'description', content: 'Wormhouse Settlement Service' },
               { name: 'keywords', content: 'home in heavens, eve online, wormhole, planetary industry, hole control' },
             ]}
           >
