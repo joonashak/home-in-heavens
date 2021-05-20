@@ -112,9 +112,8 @@
     }
 
     p {
-      text-transform: uppercase;
       letter-spacing: _font(letter-spacing);
-      font-size: 0.8rem;
+      font-size: 1rem;
       line-height: 2;
     }
   }
@@ -297,6 +296,10 @@
 
   div {
     width: 40%;
+
+    .justified {
+      text-align: justify;
+    }
   }
 
   @include breakpoint(medium) {
