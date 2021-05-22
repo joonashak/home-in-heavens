@@ -4,7 +4,7 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img id="hc-logo" />
+      <img id="hc-logo" alt="" />
     </div>
     <div className="content">
       <div className="inner">
@@ -41,7 +41,7 @@ const Header = props => (
               Contact us in Discord
             </h2>
             <p>
-              <a href="https://discord.gg/rr9euqXBnk" target="_blank">discord.gg/rr9euqXBnk</a>
+              <a href="https://discord.gg/rr9euqXBnk" target="_blank" rel="noreferrer">discord.gg/rr9euqXBnk</a>
             </p>
           </div>
           <div className="right">
